@@ -1,0 +1,77 @@
+body {
+    padding: 0;
+    overflow: hidden;
+    font-family: colfax, helvetica, arial, sans-serif;
+}
+
+p {
+  font-size: 14px;
+}
+
+button {
+  font-size: 12px;
+}
+
+
+h1 {
+  font-size: 30px;
+  font-weight: 600
+}
+
+h2 {
+  font-size: 24px;
+}
+
+
+
+.map {
+    position: absolute;
+    right: 0px;
+    left: 340px;
+    height: 100%;
+    top: 0;
+}
+
+.sidebar {
+    position: absolute;
+    left: 0px;
+    width: 320px;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+#sidebar-text {
+  padding: 20px;
+  width: 320px;
+}
+
+#sidebar-below {
+ position: fixed;
+ padding: 20px;
+ bottom: 390px;
+ width: 320px;
+}
+
+
+.leaflet-marker-icon {
+  border-radius: 50%;
+}
+/* .legend {
+  position: absolute;
+  background-color: #fff;
+  z-index: 2000;
+} */
+/* .Legend div{
+    margin-left:15px;
+    width:16px;
+    border:1px solid #808080;
+    z-index: 2000;
+}
+
+.Purple {background-color:purple;}
+.Pink {background-color:pink;}
+.Green {background-color:green;}
+.Blue {background-color:blue;}
+.Yellow {background-color:yellow;} */
