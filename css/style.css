@@ -50,7 +50,7 @@ h2 {
 #sidebar-below {
  position: fixed;
  padding: 20px;
- bottom: 390px;
+ top: 390px;
  width: 320px;
 }
 
